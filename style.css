@@ -79,6 +79,7 @@ a {
 .link-arrow:hover::after {
   margin-left: 10px;
 }
+
 @media screen and (min-width: 280px) and (max-width: 499px) {
   .link-arrow {
     font-size: 0.9rem;
@@ -149,15 +150,7 @@ ul {
   white-space: nowrap;
   margin-bottom: 1rem;
 }
-@media screen and (min-width: 200px) and (max-width: 499px) {
-  .list--inline .list__item {
-    display: inline-block;
-    margin-right: 1rem;
-  }
-  .list--tick {
-    padding-left: 1rem;
-  }
-}
+
 @media screen and (min-width: 1024px) {
   .list--tick .list__item {
     padding-left: 0;
@@ -460,6 +453,11 @@ ul {
   }
   .btn--stretched {
     padding: 1rem 2rem;
+  }
+}
+@media screen and (min-width: 500px) {
+  .hero__heading {
+    line-height: 5rem;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1050px) {
@@ -1280,6 +1278,9 @@ ul {
     padding-right: 2rem;
     padding-left: 1.8rem;
     margin: 2rem auto 0;
+  }
+  .media__image .quote__line {
+    margin-left: 3rem;
   }
   .media__body .quote__author {
     font-size: 1.5rem;
